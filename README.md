@@ -1,6 +1,6 @@
 # CORS-Proxy
 
-Simple nodejs proxy to help avoiding CORS massage in the Browser whyle developing a client for the API that you don't have access and you can not set the CORS headers.
+Simple nodejs proxy to help avoiding CORS massage in the Browser while developing a client for the API that you don't have access to and therefore you can not set the CORS headers.
 
 This is using [node-http-proxy](https://github.com/nodejitsu/node-http-proxy)
 
@@ -20,5 +20,7 @@ navigate to the project and install the needed packages
 Run the CORS-Proxy:
 
 `node index.js http://<targethost>:PORT  LISTENINGPORT`
+
+For Example if you run `node index.js http://apihost:9000 5050` you  can use `localhost:5050` to access `apihost:9000`
 
 
