@@ -19,7 +19,7 @@ navigate to the project and install the needed packages
 
 Run the CORS-Proxy:
 
-`node index.js http://<targethost>:PORT  LISTENINGPORT`
+`node index.js http://<TARGETHOST>:<TARGETPORT>  <LISTENINGPORT>`
 
 For Example if you run `node index.js http://apihost:9000 5050` you  can use `localhost:5050` to access `apihost:9000`
 
