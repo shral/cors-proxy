@@ -2,6 +2,7 @@
 
 Simple nodejs proxy to help avoiding CORS massage in the Browser while developing a client for the API that you don't have access to and therefore you can not set the CORS headers.
 
+## Dependencies
 This is using [node-http-proxy](https://github.com/nodejitsu/node-http-proxy)
 
 ## Installation
