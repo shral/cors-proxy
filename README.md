@@ -12,7 +12,7 @@ Clone this project:
 
 `git clone https://github.com/shral/cors-proxy.git`
 
-navigate to the project and install the needed packages
+Navigate to the project and install the needed packages
 
 `cd  proxy`
 
